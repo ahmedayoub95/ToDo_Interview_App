@@ -20,10 +20,7 @@ class SellListVC: UIViewController {
         }
         return container
     }()
-    let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
-    
-    
+    let managedContext = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext    
     let activityIndicator = UIActivityIndicatorView(style: .large)
     
     @IBOutlet weak var sellListTV: UITableView!

@@ -24,14 +24,4 @@ struct SellListModel : Codable {
         case quantity = "quantity"
         case type = "type"
     }
-    
-//    init(entity: ToDo_Interview.SellListEntity) {
-//        id = Int(entity.id )
-//        name = entity.name
-//        price = Int(entity.price)
-//        quantity = Int(entity.quantity)
-//        type = Int(entity.type)
-//    }
-
-    
 }
